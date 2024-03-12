@@ -1,0 +1,35 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Tue Mar 12 14:22:59 2024
+| Host         : casper-VirtualBox running 64-bit Ubuntu 22.04.3 LTS
+| Command      : report_utilization -hierarchical -file digilent_nexys4_utilization_hierarchical_place.rpt
+| Design       : digilent_nexys4
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Placed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+------------+
+|          Instance          |      Module      | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+------------+
+| digilent_nexys4            |            (top) |       2885 |       2873 |      12 |    0 | 2497 |     11 |      8 |          4 |
+|   (digilent_nexys4)        |            (top) |        360 |        348 |      12 |    0 | 1004 |     10 |      0 |          0 |
+|   VexRiscv                 |         VexRiscv |       2431 |       2431 |       0 |    0 | 1363 |      1 |      8 |          4 |
+|     (VexRiscv)             |         VexRiscv |        861 |        861 |       0 |    0 | 1191 |      0 |      2 |          4 |
+|     IBusCachedPlugin_cache | InstructionCache |       1008 |       1008 |       0 |    0 |  106 |      1 |      1 |          0 |
+|     dataCache_1            |        DataCache |        574 |        574 |       0 |    0 |   66 |      0 |      5 |          0 |
+|   adder                    |            adder |         98 |         98 |       0 |    0 |  130 |      0 |      0 |          0 |
++----------------------------+------------------+------------+------------+---------+------+------+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+
