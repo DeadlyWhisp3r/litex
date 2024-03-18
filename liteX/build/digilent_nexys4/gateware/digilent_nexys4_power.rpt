@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
-| Date             : Tue Mar 12 14:23:30 2024
+| Date             : Wed Mar 13 15:29:39 2024
 | Host             : casper-VirtualBox running 64-bit Ubuntu 22.04.3 LTS
 | Command          : report_power -file digilent_nexys4_power.rpt
 | Design           : digilent_nexys4
@@ -52,14 +52,14 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.011 |        5 |       --- |             --- |
+| Clocks                   |     0.010 |        5 |       --- |             --- |
 | Slice Logic              |     0.006 |     6076 |       --- |             --- |
-|   LUT as Logic           |     0.005 |     2873 |     63400 |            4.53 |
+|   LUT as Logic           |     0.005 |     2872 |     63400 |            4.53 |
 |   CARRY4                 |    <0.001 |      183 |     15850 |            1.15 |
 |   Register               |    <0.001 |     2497 |    126800 |            1.97 |
 |   LUT as Distributed RAM |    <0.001 |       12 |     19000 |            0.06 |
 |   Others                 |     0.000 |       14 |       --- |             --- |
-| Signals                  |     0.007 |     5170 |       --- |             --- |
+| Signals                  |     0.008 |     5174 |       --- |             --- |
 | Block RAM                |     0.021 |       15 |       135 |           11.11 |
 | MMCM                     |     0.116 |        1 |         6 |           16.67 |
 | DSPs                     |     0.003 |        4 |       240 |            1.67 |
